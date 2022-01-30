@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18063848, g: 0.22613816, b: 0.307114, a: 1}
+  m_IndirectSpecularColor: {r: 0.18233706, g: 0.22804524, b: 0.30731612, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1997,13 +1997,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548678843}
-  m_LocalRotation: {x: -0.26739344, y: 0.5734272, z: -0.32727197, w: -0.701837}
-  m_LocalPosition: {x: 16867, y: 100, z: 25449}
+  m_LocalRotation: {x: 0.16769761, y: 0.44451225, z: -0.4628092, w: 0.7483943}
+  m_LocalPosition: {x: 0, y: 687.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 48.648, y: 287.563, z: 13.365}
+  m_LocalEulerAnglesHint: {x: 138.512, y: 222.92, z: 133.47101}
 --- !u!4 &551977299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7465068781617323262, guid: 40780b9ff0a79b74894bd4b013d82eab, type: 3}
@@ -4820,7 +4820,7 @@ MonoBehaviour:
   - {fileID: 477961945}
   enemyPrefab: {fileID: 6536456384788865694}
   spawnInterval: 3
-  spawnDuration: 7
+  spawnDuration: 60
   noOfEnemies: 0
   building: {fileID: 1256369460}
   gtm: {fileID: 1429462693}
@@ -6370,8 +6370,8 @@ MonoBehaviour:
   - {fileID: 2054757948}
   - {fileID: 571750487}
   enemyPrefab: {fileID: 691284653}
-  spawnInterval: 3
-  spawnDuration: 6
+  spawnInterval: 2
+  spawnDuration: 60
   noOfEnemies: 0
   building: {fileID: 1850737988}
   gtm: {fileID: 1429462693}
